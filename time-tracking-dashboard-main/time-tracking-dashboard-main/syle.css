@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+:root {
+  --blue: hsl(246, 80%, 60%);
+  --light-redd: hsl(15, 100%, 70%);
+  --soft-blue: hsl(195, 74%, 62%);
+  --light-red: hsl(348, 100%, 68%);
+  --lime-green: hsl(145, 58%, 55%);
+  --violet: hsl(264, 64%, 52%);
+  --soft-orange: hsl(43, 84%, 65%);
+  --very-dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
+  --desaturated-blue: hsl(235, 45%, 61%);
+  --pale-blue: hsl(236, 100%, 87%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+ 
+}
+main {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background: var(--very-dark-blue);
+
+}
+
+.caixa-principal {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-blue);
+  height: 200px;
+}
+
+.info {
+  width: 150px;
+  background-color: var(--blue);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.name {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding-bottom: 1rem;
+}
+
+.report {
+  color: var(--pale-blue);
+  font-size: 9px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+
+.caixa-principal img {
+  border: 2px solid #fff;
+  border-radius: 150px;
+  width: 40px;
+  height: 40px;
+}
+
+.links {
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border-radius: 10px;
+  padding: 0.8rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--pale-blue);
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 9px;
+}
+
+.caixas {
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+}
+.work-header {
+  background-color: var(--light-redd);
+  border-radius: 10px;
+   height: 40px;
+}
+
+.play-header {
+  background-color: var(--soft-blue);
+  border-radius: 10px;
+   height: 40px;
+}
+
+.study-header {
+  background-color: var(--light-red);
+  border-radius: 10px;
+   height: 40px;
+}
+.exercise-header {
+  background-color: var(--lime-green);
+  border-radius: 10px;
+   height: 40px;
+}
+.social-header {
+  background-color: var(--violet);
+  border-radius: 10px;
+  height: 40px;
+}
+.self-header {
+  background-color: var(--soft-orange);
+  border-radius: 10px;
+  height: 40px;
+}
+
+.icon {
+  display: flex;
+  justify-content: end;
+}
+
+.content-conteudo {
+  background-color: var(--dark-blue);
+  height: 100px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.atividade {
+  padding: 1rem;
+}
+
+.conteudo-title {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  align-items: center;
+  padding-top: 0.5rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.current {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.previous {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: var(--pale-blue);
+  font-size: 7px;
+  margin-top: 0.3rem;
+}
